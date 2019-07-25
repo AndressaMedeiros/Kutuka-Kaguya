@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro Reserva</title>
+</head>
+<body>
+	<form action="negocio/clientern.php" method="post">
+		<p>
+			<label>Nome:</label>
+			<input type="text" name="nome" required>
+		</p>
+		<p>
+			<label>CPF:</label>
+			<input type="text" name="cpf" maxlength="11" minlength="11" required>
+		</p>
+		<p>
+			<label>Endereço:</label>
+			<input type="text" name="endereco" required>
+		</p>
+		<p>
+			<button>Cadastrar</button>
+			<button type="reset">Limpar</button> 
+		</p>	
+	</form>
+</body>
+</html>
